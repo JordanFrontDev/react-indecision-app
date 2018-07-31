@@ -1,0 +1,30 @@
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: $m-size;
+    background-color: $dark-blue;
+    min-height: 100vh;
+   
+    display: flex;
+    flex-direction: column;
+}
+
+#root{
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    color: $off-white;
+}
+
+button {
+    cursor: pointer;  /// now we're gonna have all the cursors rules aplied to all our buttons
+}
+
+button:disabled{   // now all our buttons when disabled are gonna have default cursor
+    cursor: default;
+}
